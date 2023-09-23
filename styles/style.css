@@ -214,6 +214,63 @@ nav ul a:hover {
   line-height: 24px;
 }
 
+/* sticky-cards css */
+.sticky-cards {
+  background-color: #f9fafb;
+  padding: 150px 0;
+}
+.sticky-cards .title {
+  text-align: center;
+  margin: 0 0 80px;
+  position: sticky;
+  top: 25%;
+}
+.sticky-cards .title h2 {
+  color: #147adb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 40px;
+}
+.sticky-cards .inner-stickyCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.sticky-cards .inner-stickyCards .card {
+  max-width: 960px;
+  min-height: 346px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/bg2.png);
+  background-position: center;
+  background-size: cover;
+  padding: 48px 80px;
+  border-radius: 25px;
+  position: sticky;
+  top: 50%;
+}
+.sticky-cards .inner-stickyCards .card h2 {
+  color: #374151;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 30px;
+  margin: 0 0 10px;
+}
+.sticky-cards .inner-stickyCards .card p {
+  color: #374151;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
 /* footer section css */
 footer {
   padding: 40px 0;
